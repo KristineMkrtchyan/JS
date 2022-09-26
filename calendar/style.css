@@ -1,0 +1,83 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+}
+html {
+	scroll-behavior: smooth;
+}
+
+.calendar {
+    width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 4px solid #040d46;
+    border-radius: 15px;
+    background: #bbdefb;
+  }
+
+  #divCal {
+    background-color: #f9fbe7e3;
+  }
+
+  table {
+    clear: both;
+    width: 100%;
+    border-collapse: collapse;
+
+  }
+  td {
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    border-right: 2px solid #cdcdf68a;
+    border-top: 2px solid #cdcdf68a;
+   
+  }
+  thead td {
+    border: none;
+    color: #880e4f;
+    text-transform: uppercase;
+    font-size: 30px;
+  }
+
+  td.not-current {
+    color: #c0c0c0;
+  }
+
+  td.today {
+    font-weight: 900;
+    color: #b70505;
+    font-size: 25px;
+  }
+
+  #btnPrev {
+    float: left;
+    margin-bottom: 20px;
+  }
+
+  #btnNext {
+    float: right;
+    margin-bottom: 20px;
+  }
+ 
+  #btnPrev,
+  #btnNext {
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    color: #633f3f;
+    cursor: pointer;
+    font-family: sans-serif;
+   
+  }
+  
+      
+  #btnPrev:hover,
+  #btnNext:hover {
+    color: #550808;
+    font-weight: bold;
+  }
