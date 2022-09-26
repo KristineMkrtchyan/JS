@@ -1,0 +1,19 @@
+#chees {
+  width: 670px;
+  height: 704px;
+  background-color: rgb(119, 117, 117);
+}
+
+
+tr, td {
+  width: 80px;
+  height: 80px;
+  border: 2px solid;
+}
+
+.block {
+  font-size: 60px;
+  background-color:white;
+  text-align: center;
+  font-weight: 700;
+}
