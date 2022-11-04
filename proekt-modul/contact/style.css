@@ -1,0 +1,50 @@
+
+#userForm{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.dataForm {
+    width: 40%;
+    margin: 20px;
+    border: 3px outset gray;
+    background-color: azure;
+    padding: 10px;
+}
+
+.formInput {
+    margin: 5px;
+    border: 2px inset gray;
+    outline:none;
+}
+.formInput:focus {
+    border: none;
+    outline: 2px solid blue;
+}
+.submitButton {
+    height: 40px;
+    width: 100px;
+    border: 2px outset gray;
+    background-color: #bbdefb;
+    color: #060d13;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.submitButton:hover {
+    border: 2px inset gray;
+    background-color: #2b587c;
+    color: #e5ebf0;
+}
+
+#textArea {
+    height: 100px;
+    width: 300px;
+    margin: 20px 0;
+}
